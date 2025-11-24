@@ -1,0 +1,13 @@
+DESCRIPCIÓN DE LO QUE REALIZA EL CÓDIGO
+A)El código funciona como un sistema integrado, conectado mediante funciones para que crear un flujo ininterrumpido de datos.
+
+1) Es importante en primera instancia tener claridad de que vamos a hacer y como se guardara la información porque no tiene sentido simplemente dejar la información al vacío por ende incurrimos a usar a json, quienes nos permite guardar información de manera simple e importarlo a python cundo lo necesitemos sin mucho dificultad.
+
+2) Ahora bien, la condición para que un sistema de inventario funcione es que contenga un flujo contante de información por ende incurrimos a usar un método denominado CRUD, es decir, crear, leer, actualizar y borrar, cada uno de estos pasos bien ejecutados en el código mediante funciones
+(las validaciones ene este caso son de gran importacia debido a que nos permite cuidar el codgio y que no se rompa por información cargada que no corresponde), toda la información constante se guarda en un diccionario que a su vez se guarda en una lista a cada una de estas funciones se puede acceder mediante menus que recopilan dichas funciones 
+
+3) de igual manera una vez se van guardando la información podemos tener acceso a nuestro historial cuantas veces queramos, al igual que nuestro stock 
+
+4) El código también nos permite registrar informaron de ventas, esto con la finalidad de poder realizar informes financieros para exponerlo dentro de la empresa cualquiera podría factiblemente implementar esto esta información al tener la capacidad de guardarse dentro de un archivo .json se podrá conservar sin cambios a menos que el usuario así lo decida 
+
+5) por otra parte al conservar información podemos entonces adquirir datos específicos para el saber de la compañía como serian los productos mas vendidos como se realiza en una función que nos entrega el top 3 de libros mas vendidos 

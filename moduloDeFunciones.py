@@ -55,7 +55,6 @@ def Inventory_Managment(): #FUNCION PARA AGREGAR INFORMACION AL INVENTARIO
         author = input("please type the author of book: ").lower()
         category= input("please type the category of the book: ").lower()
 
-        validate_text_input() # VALIDACION AVANZADA PARA EVITAR PROBLEMAS DE INFORMACION 
 
         while True:
             try: # DEBIDO A QUE INFORMACION COMO PRECIO, FECHA Y CANTIDAD SON VALORES NUEMERICOS QUE TAMBIEN REEPRESENTAN INFORMACION, ES IMPERATIVO

@@ -1,37 +1,37 @@
 from moduloDeFunciones import *
 
-def menu_principal():
+def PrincipalMenu():
     while True:
-        print("\n========== MENU PRINCIPAL ==========\n")
-        print("¿Que quieres hacer hoy?, selecciona una las siguientes opciones:\n")
+        print("\n========== PRINCIPAL MENU ==========\n")
+        print("¿What do you want to do today? Select one of the following options:\n")
 
-        print("1. Gestion del inventario")
-        print("2. Registro y consulta de ventas")
-        print("3. Validar stock disponible")
-        print("4. Historial de ventas (solo ver)")
+        print("1. Inventory Management")
+        print("2. Sales registration and inquiry")
+        print("3. Validate available stock")
+        print("4. Sales history (view only)")
         print("5. Types and checks sales")
-        print("6. Modulo de reportes")
-        print("7. Salir")
+        print("6. Reporting module")
+        print("7. Get out")
 
-        procesos = input("Por favor ingresa el numero de la actividad que quieres hacer hoy: ").strip()
+        process = input("Please enter the number of the activity you want to do today.: ").strip()
 
-        if procesos == "1":
+        if process == "1":
             modulo_inventory()   
-        elif procesos == "2":
+        elif process == "2":
             modulo_sales()    
-        elif procesos == "3":
+        elif process == "3":
             validateStock()
-        elif procesos == "4":
+        elif process == "4":
             show_sales_history()
-        elif procesos == "5":
+        elif process == "5":
             types_and_checks_sales()
-        elif procesos == "6":
+        elif process == "6":
             modulo_reports()     
-        elif procesos == "7":
-            print("Saliendo del programa...")
+        elif process == "7":
+            print("Getting out the program..")
             break
         else:
-            print("ERROR: opción invalida. Intenta otra vez.")
+            print("ERROR: Invalid option. Please try again..")
 
 # ESTA LÍNEA ES CLAVE:
-menu_principal()
+PrincipalMenu()
