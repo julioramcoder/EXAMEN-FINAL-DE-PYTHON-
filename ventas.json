@@ -1,0 +1,10 @@
+[
+    {
+        "costumer": "andres",
+        "typeofcostumer": "premium",
+        "soldbook": "El principito",
+        "soldquantity": 1,
+        "solddate": "12/12/2000",
+        "discount_applied": 23.0
+    }
+]
